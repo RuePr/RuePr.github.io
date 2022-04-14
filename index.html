@@ -208,7 +208,7 @@ var dataLog = {
     if (local){
       data.localSave('csv', file_name )
     } else {
-      saveData(file_name, "data.csv");
+      saveData(file_name, jsPsych.data.get());
     }
   }
 }
